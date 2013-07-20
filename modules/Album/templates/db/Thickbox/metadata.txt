@@ -1,0 +1,3 @@
+<script type="text/javascript" src="modules/Album/templates/db/js/jquery.js"></script>
+<script type="text/javascript" src="modules/Album/templates/db/js/thickbox.js"></script>
+<link rel="stylesheet" type="text/css" href="modules/Album/templates/db/Thickbox/thickbox.css" media="screen"/>

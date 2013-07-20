@@ -1,0 +1,8 @@
+<script type="text/javascript" src="modules/Album/templates/db/js/jquery162.js"></script>
+<script type="text/javascript" src="modules/Album/templates/db/jQlightbox/jQlightbox.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        $('#jQligallery a').lightBox();
+    });
+    </script>
+<link rel="stylesheet" href="modules/Album/templates/db/jQlightbox/jQlightbox.css" type="text/css" media="screen" />

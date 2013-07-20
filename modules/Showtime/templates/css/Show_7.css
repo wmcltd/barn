@@ -1,0 +1,110 @@
+
+                div#slideshow_nav_7{
+                        position:absolute;
+                        z-index: 10;
+                        bottom:0;
+                        right:0;
+                        padding:5px;
+                }
+                .slide_nav_7 {
+                        clear:both;
+                        margin:5px 0;
+                }
+                .slide_nav_7 a {
+                            -webkit-border-radius: 8px;
+                            -moz-border-radius: 8px; 
+                            border-radius: 8px;
+                        background:none repeat scroll 0 0 #6b6b6b;
+                        border:0px solid #444040;
+                        color:#6b6b6b!important;
+                        font-size:1px;
+                        font-weight:bold;
+                        margin:2px;
+                        padding:8px 8px;
+                        line-height:16px;
+                        text-decoration:none;
+                }
+                .slide_nav_7 a.activeSlide {
+                        background:none repeat scroll 0 0 #BEABF7;
+                        color:#BEABF7 !important;
+                }
+                .slide_nav_7 a:focus {
+                        outline:medium none;
+                }
+
+                div#slideshow_7 {
+                        width:640px; height: 320px; /*padding: 15px 0 0 12px;*/
+                        position: relative; z-index: 5;
+                        overflow: hidden;
+                        margin: 0 auto;
+                        background:#000000;
+                }
+                        div#slideshow_7 img{
+                                border:none!important;
+                                padding:0;
+                                margin:0;
+                        }
+                        div#slideshow_7 ul#prevnextnav_7 {
+                                padding: 0;
+                                display: none;
+                                list-style: none;
+                                position: relative; top: 155px; z-index: 15;
+                                outline:medium none;
+                                margin:0;
+                        }
+                                div#slideshow_7 ul#prevnextnav_7 li#prev_7 {
+                                        position:absolute; left:32px; margin: 0;padding: 0;
+                                }
+                                div#slideshow_7 ul#prevnextnav_7 li#next_7 {
+                                        position:absolute; left:568px; margin: 0 20px 0 0;padding: 0;
+                                }
+                                div#slideshow_7 ul#prevnextnav_7 li a {
+                                        display: block; width: 40px; height: 40px; text-indent: -9999px;
+                                }
+                                        div#slideshow_7 ul#prevnextnav_7 li#prev_7 a {
+
+                                                background: url(http://basis.web2do.be/modules/Showtime/templates/jquery/images/prev_40.png);
+
+                                        }
+                                        div#slideshow_7 ul#prevnextnav_7 li#next_7 a {
+
+                                                background: url(http://basis.web2do.be/modules/Showtime/templates/jquery/images/next_40.png);
+
+                                        }
+
+                        div#slideshow_7 ul#slides_7{
+                                list-style: none;padding: 0; margin:0; z-index:5;
+                                width:640px; height: 320px;
+                        }
+                                div#slideshow_7 ul#slides_7 li {
+                                        width:640px; height: 320px;
+                                        margin: 0 0 20px 0;
+                                }
+
+                a {outline: none; }
+                div#comments_st_7{
+                        position:absolute;
+                        font-size:12px;
+                        z-index: 10;
+                        color:#eeeeee;
+                        font-family:_sans, Helvetica, Arial;	
+                                width:100%			
+                }
+                div#comments_st_7 h2{
+                        font-size:16px !important;
+                        color:#eeeeee !important;
+                        margin:0;
+                        padding:0;
+                }
+
+                .commentsparts_st_7{
+                        display:none;
+                        background-color:#000000;
+                            top:0px;
+                            /*opacity: 0.65;*/
+                            background-color: rgba(0, 0, 0, 0.8);
+                            filter: alpha(opacity=65);
+
+                        padding:10px;
+                        position:relative;
+                }

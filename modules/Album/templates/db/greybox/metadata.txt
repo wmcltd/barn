@@ -1,0 +1,7 @@
+<script type="text/javascript">
+    var GB_ROOT_DIR = "modules/Album/templates/db/greybox/";
+</script>  
+<script type="text/javascript" src="modules/Album/templates/db/greybox/AJS.js"></script>
+<script type="text/javascript" src="modules/Album/templates/db/greybox/AJS_fx.js"></script>
+<script type="text/javascript" src="modules/Album/templates/db/greybox/gb_scripts.js"></script>
+<link rel="stylesheet" href="modules/Album/templates/db/greybox/greybox.css" type="text/css" media="screen" />

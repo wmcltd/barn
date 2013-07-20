@@ -1,0 +1,2 @@
+<script type="text/javascript" src="modules/Album/templates/db/lytebox/lytebox.js"></script>
+<link rel="stylesheet" href="modules/Album/templates/db/lytebox/lytebox.css" type="text/css" media="screen" />

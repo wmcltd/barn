@@ -1,0 +1,1 @@
+<link rel="stylesheet" type="text/css" href="modules/Album/templates/db/ImageGallery/simple.css" media="screen"/>
