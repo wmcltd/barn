@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2013-07-19 21:25:14
+<?php /* Smarty version Smarty-3.1.12, created on 2013-07-30 12:36:35
          compiled from "content:content_en" */ ?>
-<?php /*%%SmartyHeaderCode:208669515451e9f50a2220a5-01761958%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:32620115651f7f9a336cda1-06289100%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'content',
     ),
   ),
-  'nocache_hash' => '208669515451e9f50a2220a5-01761958',
+  'nocache_hash' => '32620115651f7f9a336cda1-06289100',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_51e9f50a228274_52847398',
+  'unifunc' => 'content_51f7f9a3372c89_02767495',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51e9f50a228274_52847398')) {function content_51e9f50a228274_52847398($_smarty_tpl) {?><?php if (!is_callable('smarty_function_cms_selflink')) include '/Users/darfine/Sites/barn/plugins/function.cms_selflink.php';
+<?php if ($_valid && !is_callable('content_51f7f9a3372c89_02767495')) {function content_51f7f9a3372c89_02767495($_smarty_tpl) {?><?php if (!is_callable('smarty_function_cms_selflink')) include '/Users/darfine/Sites/barn/plugins/function.cms_selflink.php';
 ?><h2>Welcome to The Barn</h2>
 <p>The Barn at Dunvilla is a unique country destination perfect for Weddings, Reunions, Parties, Conferences and Special Events.</p>
 <p>From the <a href="<?php echo smarty_function_cms_selflink(array('href'=>'fireplace-lounge'),$_smarty_tpl);?>

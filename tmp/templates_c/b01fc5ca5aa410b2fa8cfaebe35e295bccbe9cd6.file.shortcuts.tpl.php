@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2013-07-19 21:07:06
+<?php /* Smarty version Smarty-3.1.12, created on 2013-07-30 23:12:48
          compiled from "/Users/darfine/Sites/barn/admin/themes/OneEleven/templates/shortcuts.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:104171119151e9f0ca780474-40069650%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:110183864251f88ec0082d94-36416860%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '104171119151e9f0ca780474-40069650',
+  'nocache_hash' => '110183864251f88ec0082d94-36416860',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_51e9f0ca7e9c51_74966473',
+  'unifunc' => 'content_51f88ec01696b2_01212034',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51e9f0ca7e9c51_74966473')) {function content_51e9f0ca7e9c51_74966473($_smarty_tpl) {?><?php if (!is_callable('smarty_function_root_url')) include '/Users/darfine/Sites/barn/plugins/function.root_url.php';
+<?php if ($_valid && !is_callable('content_51f88ec01696b2_01212034')) {function content_51f88ec01696b2_01212034($_smarty_tpl) {?><?php if (!is_callable('smarty_function_root_url')) include '/Users/darfine/Sites/barn/plugins/function.root_url.php';
 ?><div class="shortcuts"><ul class="cf"><li class="help"><?php if (isset($_smarty_tpl->tpl_vars['module_help_url']->value)){?><a href="<?php echo $_smarty_tpl->tpl_vars['module_help_url']->value;?>
 " title="<?php echo lang('module_help');?>
 "><?php echo lang('module_help');?>

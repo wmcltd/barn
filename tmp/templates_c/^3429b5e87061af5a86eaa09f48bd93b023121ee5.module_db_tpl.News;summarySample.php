@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2013-07-19 21:26:31
+<?php /* Smarty version Smarty-3.1.12, created on 2013-07-30 12:47:50
          compiled from "module_db_tpl:News;summarySample" */ ?>
-<?php /*%%SmartyHeaderCode:175005823351e9f5576fee00-67250905%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:87561043751f7fc465a8ed8-80295997%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'module_db_tpl',
     ),
   ),
-  'nocache_hash' => '175005823351e9f5576fee00-67250905',
+  'nocache_hash' => '87561043751f7fc465a8ed8-80295997',
   'function' => 
   array (
   ),
@@ -36,9 +36,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_51e9f5577e4f60_62250987',
+  'unifunc' => 'content_51f7fc4675b4c9_79097602',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51e9f5577e4f60_62250987')) {function content_51e9f5577e4f60_62250987($_smarty_tpl) {?><?php if (!is_callable('smarty_function_repeat')) include '/Users/darfine/Sites/barn/plugins/function.repeat.php';
+<?php if ($_valid && !is_callable('content_51f7fc4675b4c9_79097602')) {function content_51f7fc4675b4c9_79097602($_smarty_tpl) {?><?php if (!is_callable('smarty_function_repeat')) include '/Users/darfine/Sites/barn/plugins/function.repeat.php';
 if (!is_callable('smarty_cms_modifier_cms_date_format')) include '/Users/darfine/Sites/barn/plugins/modifier.cms_date_format.php';
 if (!is_callable('smarty_modifier_cms_escape')) include '/Users/darfine/Sites/barn/plugins/modifier.cms_escape.php';
 ?><!-- Start News Display Template -->

@@ -1,20 +1,22 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2013-07-19 20:56:35
+<?php /* Smarty version Smarty-3.1.12, created on 2013-07-30 14:01:46
          compiled from "tpl_body:26" */ ?>
-<?php /*%%SmartyHeaderCode:163047976751e9ee538338c6-11351767%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:153757833851f7f9a2171303-79683327%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ad8109c5108364fff0b4269a015ffc8d99f9e790' => 
     array (
       0 => 'tpl_body:26',
-      1 => 1374238451,
+      1 => 1375210903,
       2 => 'tpl_body',
     ),
   ),
-  'nocache_hash' => '163047976751e9ee538338c6-11351767',
+  'nocache_hash' => '153757833851f7f9a2171303-79683327',
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.12',
+  'unifunc' => 'content_51f7f9a25716f9_98329470',
   'variables' => 
   array (
     'show_extra' => 0,
@@ -26,10 +28,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'show_footermenu' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_51e9ee53a01966_92727337',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51e9ee53a01966_92727337')) {function content_51e9ee53a01966_92727337($_smarty_tpl) {?><?php if (!is_callable('smarty_function_root_url')) include '/Users/darfine/Sites/barn/plugins/function.root_url.php';
+<?php if ($_valid && !is_callable('content_51f7f9a25716f9_98329470')) {function content_51f7f9a25716f9_98329470($_smarty_tpl) {?><?php if (!is_callable('smarty_function_root_url')) include '/Users/darfine/Sites/barn/plugins/function.root_url.php';
 if (!is_callable('smarty_function_sitename')) include '/Users/darfine/Sites/barn/plugins/function.sitename.php';
 if (!is_callable('smarty_function_page_attr')) include '/Users/darfine/Sites/barn/plugins/function.page_attr.php';
 if (!is_callable('smarty_function_cms_module')) include '/Users/darfine/Sites/barn/plugins/function.cms_module.php';
@@ -56,9 +56,9 @@ $_smarty_tpl->tpl_vars["show_search"]->value = "+"; $_smarty_tpl->tpl_vars["show
 	<!-- HEADER -->
 	<div id="header-wrap">			
 		<div id="header-photo">
-		<!--<img alt="header photo" src="/barn/uploads/unbound/header-photo.jpg" width="890" height="290" />-->
-<?php echo Showtime::function_plugin(array('show'=>'1'),$_smarty_tpl);?>
-
+		<div id="header-static" style="float:left;"><a href="/"><img src="uploads/images/barn-logo-static.jpg"></a> </div>
+<div id="header-show" style="float:left;"><?php echo Showtime::function_plugin(array('show'=>'5'),$_smarty_tpl);?>
+</div>
 	</div>
 		
 	<!--<h1 id="logo-text"><a href="<?php echo smarty_function_root_url(array(),$_smarty_tpl);?>
@@ -139,7 +139,7 @@ $_smarty_tpl->tpl_vars["show_footermenu"]->value = "+"; $_smarty_tpl->tpl_vars["
 
     </div>
     <div class-"second menu">
-      <h3>Events</h3>
+      <!--<h3>Events</h3>-->
          <?php echo MenuManager::function_plugin(array('template'=>"EventMenu",'start_level'=>"1"),$_smarty_tpl);?>
 
     </div>
@@ -149,9 +149,11 @@ $_smarty_tpl->tpl_vars["show_footermenu"]->value = "+"; $_smarty_tpl->tpl_vars["
 	</div>
 		
 	<div class="col-three">
-	<?php echo cms_user_tag_photoblock1(array(),$_smarty_tpl);?>
+	
+        <?php echo Gallery::function_plugin(array(),$_smarty_tpl);?>
 
-	<?php if ($_smarty_tpl->tpl_vars['show_news']->value=="+"){?>
+	
+        <?php if ($_smarty_tpl->tpl_vars['show_news']->value=="+"){?>
 	<!-- NEWS -->
 	<div class="news">
 	<?php echo smarty_function_cms_module(array('module'=>'News','detailpage'=>'news','number'=>'3'),$_smarty_tpl);?>
